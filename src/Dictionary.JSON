@@ -1,0 +1,72 @@
+{
+	"Local Dictionary": {[
+		"Spotify": {
+			"Location": "C:/",
+			"Category": "Music",
+			"User Defined": false,
+			"Times Launched" : 0,
+			"Last Time Launched": "Never",
+			"Keywords": [{
+				"Keyword": "Spotify",
+				"Strength": 100,
+				"Times Used": 0,
+				"Last Used": "Never"
+			},
+			{
+				"Keyword": "music",
+				"Strength": 90,
+				"Times Used": 0,
+				"Last Used": "Never"
+			},	
+			{
+				"Keyword": "song",
+				"Strength": 90,
+				"Times Used": 0,
+				"Last Used": "Never"
+			},	
+			{
+				"Keyword": "listen",
+				"Strength": 60,
+				"Times Used": 0,
+				"Last Used": "Never"
+			},	
+			{
+				"Keyword": "play",
+				"Strength": 40,
+				"Times Used": 0,
+				"Last Used": "Never"
+			}]
+		},
+		"Firefox": {
+			"Location": "C:/",
+			"Category": "Browser",
+			"User Defined": false,
+			"Times Launched" : 0,
+			"Last Time Launched": "Never",
+			"Keywords": [{
+				"Keyword": "Firefox",
+				"Strength": 100,
+				"Times Used": 0,
+				"Last Used": "Never"
+			},
+			{
+				"Keyword": "internet",
+				"Strength": 80,
+				"Times Used": 0,
+				"Last Used": "Never"
+			},	
+			{
+				"Keyword": "browser",
+				"Strength": 90,
+				"Times Used": 0,
+				"Last Used": "Never"
+			},	
+			{
+				"Keyword": "browse",
+				"Strength": 60,
+				"Times Used": 0,
+				"Last Used": "Never"
+			}]
+		}]
+	}
+}
