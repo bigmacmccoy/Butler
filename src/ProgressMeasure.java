@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class ProgressMeasure {
 	private boolean verboseMode = false;
+	private boolean running = true;
 	private String sequenceName;
 	private int numberOfTasks;
 	private ArrayList<BondedPair> taskList;
@@ -32,7 +33,7 @@ public class ProgressMeasure {
 		if(this.verboseMode){
 			this.calculateSequenceCompletionPercentage();
 			//Report(this.sequenceCompletionPercentage);
-			System.out.println(this.sequenceCompletionPercentage + "%");
+			System.out.println("The " + this.sequenceName + " Sequence is " + Math.round(this.sequenceCompletionPercentage) + "% Complete");
 		}
 	}
 	public double getCompletionPercentage(){
@@ -53,5 +54,11 @@ public class ProgressMeasure {
 		}else{
 			this.sequenceCompletionPercentage = 0;
 		}
+	}
+	public boolean isRunning() {
+		return this.running;
+	}
+	public void setRunning(boolean running) {
+		this.running = running;
 	}
 }

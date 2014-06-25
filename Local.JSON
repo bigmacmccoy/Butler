@@ -1,5 +1,9 @@
 {
-	"Local Dictionary": {[
+	"Name": "Jarvis",
+	"First Run": "Never",
+	"Last Run": "Never",
+	"Dictionary": [
+		{
 		"Spotify": {
 			"Location": "C:/",
 			"Category": "Music",
@@ -36,7 +40,9 @@
 				"Times Used": 0,
 				"Last Used": "Never"
 			}]
-		},
+		}
+	},
+	{
 		"Firefox": {
 			"Location": "C:/",
 			"Category": "Browser",
@@ -67,6 +73,6 @@
 				"Times Used": 0,
 				"Last Used": "Never"
 			}]
-		}]
-	}
+		}
+	}]
 }
